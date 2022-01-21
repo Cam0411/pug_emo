@@ -1,0 +1,123 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="asset/style.css")
+        link(rel="stylesheet", href="grid/grid.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css")
+    body 
+      .header 
+        .grid.wide 
+          .row 
+           .col.l-4.m-4.c-4
+             <i class="menu fas fa-bars"></i>
+           .col.l-4.m-4.c-4 
+             p.title My food
+           .col.l-4.m-4.c-4
+             p.mail mail
+      .content
+        .content__flex-box 
+         .grid.wide 
+          .row 
+           .col.l-3.m-6.c-12 
+             .img__box 
+              img(src="https://www.w3schools.com/w3images/sandwich.jpg", alt="", srcset="")
+             p.flex-box-title The Perfect Sandwich, A Real NYC Classic
+             p.about Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12 
+             .img__box
+              img(src="https://www.w3schools.com/w3images/steak.jpg", alt="", srcset="")
+             p.flex-box-title  Let Me Tell You About This Steak
+             p.about Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12 
+             .img__box
+              img(src="https://www.w3schools.com/w3images/cherries.jpg", alt="", srcset="")
+             p.flex-box-title Cherries, interrupted
+             p.about Lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12
+             .img__box 
+              img(src="https://www.w3schools.com/w3images/wine.jpg", alt="", srcset="")
+             p.flex-box-title Once Again, Robust Wine and Vegetable Pasta
+             p.about Lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12 
+             .img__box
+              img(src="https://www.w3schools.com/w3images/popsicle.jpg", alt="", srcset="")
+             p.flex-box-title All I Need Is a Popsicle
+             p.about Lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12 
+             .img__boxs
+              img(src="https://www.w3schools.com/w3images/salmon.jpg", alt="", srcset="")
+             p.flex-box-title Salmon For Your Skin
+             p.about Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12 
+             .img__box
+              img(src="https://www.w3schools.com/w3images/sandwich.jpg", alt="", srcset="")
+             p.flex-box-title The Perfect Sandwich, A Real Classic
+             p.about Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
+           .col.l-3.m-6.c-12 
+             .img__box
+               img(src="https://www.w3schools.com/w3images/croissant.jpg", alt="", srcset="")
+             p.flex-box-title Le French
+             p.about Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum
+           
+        ul.list__number 
+          li
+              a(href="#") <i class="fas fa-chevron-left"></i>
+              
+          li
+              a(href="#").default 1
+          li
+              a(href="#") 2
+          li
+              a(href="#") 3
+          li
+              a(href="#") 4
+          li
+              a(href="#") <i class="fas fa-chevron-right"></i>
+        .about__info 
+         .grid.wide 
+          .col.l-12.m-12.c-12 
+           .flex__box 
+            p.info__heading About Me, The Food Man
+            .img__info
+             img(src="https://www.w3schools.com/w3images/chef.jpg", alt="", srcset="")
+            .info__txt
+             p.who__am-i I am Who I Am!
+             p.slogan With Passion For Real, Good Food
+             p.about Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+      .footer
+       .grid.wide 
+        .row 
+         .col.l-4.m-4.c-12
+           p.footer__heading FOOTER
+           p.about Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+           p.author Powered by w3.css
+         .col.l-4.m-4.c-12
+           .headig__post BLOG POSTS
+           .flex__box 
+            img(src="https://www.w3schools.com/w3images/workshop.jpg", alt="", srcset="")
+            .txt__info
+             p.title__box Lorem
+             p.about__box Sed mattis nunc
+           .flex__box 
+            img(src="https://www.w3schools.com/w3images/gondol.jpg", alt="", srcset="")
+            .txt__info
+             p.title__box Ipsum
+             p.about__box Praes tinci sed
+
+         .col.l-4.m-4.c-12
+           p.popular__title POPULAR TAGS
+           ul.footer__list 
+            li Travel 
+            li New York
+            li Dinner 
+            li France
+      .modal 
+       .content__modal 
+        ul.list
+         li food
+         li about
+      script(src="app/main.js")  
